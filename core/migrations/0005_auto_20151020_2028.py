@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
+from django.db import migrations, models
+
+
+class Migration(migrations.Migration):
+
+    dependencies = [
+        ('core', '0004_auto_20151020_2020'),
+    ]
+
+    operations = [
+        migrations.RenameModel(
+            old_name='Contact',
+            new_name='Question',
+        ),
+    ]
