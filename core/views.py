@@ -15,3 +15,6 @@ class MessageCreateView(CreateView):
 
 class Success(TemplateView):
     template_name = "success.html"
+    
+class About(TemplateView):
+    template_name = "contact/about_me_form.html"
