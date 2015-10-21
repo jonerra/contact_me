@@ -3,6 +3,6 @@ from .views import *
 
 urlpatterns = patterns('',
     url(r'^$', Home.as_view(), name='home'),
-    url(r'^contact/create/$', ContactCreateView.as_view(), name='contact_create'),
+    url(r'^message/create/$', MessageCreateView.as_view(), name='message_create'),
     url('^success/$', Success.as_view(), name='success'),
 )
