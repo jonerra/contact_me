@@ -1,9 +1,6 @@
 {% extends 'base.html' %}
 {% block content %}
-<div class="wrapper">
-    <div style="float:right;">
-        <p>Test Test Test Test</p>
-    </div>
-    <iframe width="270" height="480" src="http://i.imgur.com/5yu95MS.jpg" frameborder="0"></iframe>
-</div>
+{% load staticfiles %}
+<img src="{% static "png/picture.jpg" %}" alt="My image" />
+<p>Hello</p>
 {% endblock %}
